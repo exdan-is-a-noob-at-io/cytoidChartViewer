@@ -1,0 +1,48 @@
+.main {
+  background-color: #1f1e32;
+  color: lightgrey;
+  font-family: 'Noto Sans SC', sans-serif;
+  font-size: 24px;
+  align-items: center;
+  width: auto;
+  padding:-100px;
+  padding-bottom: 1000px;
+  height: fit-content;
+}
+
+.button {
+  background-color: lightgrey;
+  color: black;
+  font-family: 'Noto Sans SC', sans-serif;
+  font-size: 24px;
+}
+
+.horFlex{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding-top: 25px;
+  justify-content: center;
+  text-align: center;
+}
+
+.text{
+  font-family: 'Noto Sans SC', sans-serif;
+  font-size: 24px;
+  align-items: center;
+}
+
+.inline-group {
+  max-width: 9rem;
+  padding: .5rem;
+}
+
+.inline-group .form-control {
+  text-align: right;
+} 
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
